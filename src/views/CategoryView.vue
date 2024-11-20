@@ -57,10 +57,11 @@ console.log("producst", products);
   justify-content: center;
 }
 
-.subRoute {
+/* .subRoute {
   text-decoration: none;
   display: flex;
   justify-content: center;
+
   align-items: center;
   font-size: 2rem;
   text-transform: uppercase;
@@ -68,4 +69,16 @@ console.log("producst", products);
   font-weight: 600;
   color: #4d4d4d;
 }
+
+@media screen and (max-width: 382px) {
+  .subRoute {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 282px) {
+  .subRoute {
+    font-size: 1rem;
+  }
+} */
 </style>

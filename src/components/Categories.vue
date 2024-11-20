@@ -32,6 +32,12 @@ productStore.getAllProductsCategories();
   padding: 1rem;
   font-weight: 600;
   color: #4d4d4d;
+  text-align: center;
+}
+
+.productsCategoriesTitle a {
+  text-decoration: none;
+  color: #4d4d4d;
 }
 
 .productCategorySubtitle {
