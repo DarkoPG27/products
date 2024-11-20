@@ -27,7 +27,7 @@ productStore.getAllProductsCategories();
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   padding: 1rem;
   font-weight: 600;
@@ -57,7 +57,7 @@ productStore.getAllProductsCategories();
   align-content: center;
 }
 
-@media screen and (max-width: 382px) {
+@media screen and (max-width: 580px) {
   .productsCategoriesTitle {
     font-size: 1.4rem;
   }
@@ -66,7 +66,16 @@ productStore.getAllProductsCategories();
   }
 }
 
-@media screen and (max-width: 310px) {
+@media screen and (max-width: 430px) {
+  .productsCategoriesTitle {
+    font-size: 1.2rem;
+  }
+  .productsCategoriesTitle a {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
   .productsCategoriesTitle {
     font-size: 0.9rem;
   }
