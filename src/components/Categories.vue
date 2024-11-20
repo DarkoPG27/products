@@ -61,11 +61,18 @@ productStore.getAllProductsCategories();
   .productsCategoriesTitle {
     font-size: 1.4rem;
   }
+  .productsCategoriesTitle a {
+    font-size: 1.4rem;
+  }
 }
 
-@media screen and (max-width: 282px) {
+@media screen and (max-width: 310px) {
   .productsCategoriesTitle {
-    font-size: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .productsCategoriesTitle a {
+    font-size: 0.9rem;
   }
 }
 
