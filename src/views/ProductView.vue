@@ -1,8 +1,8 @@
 <template>
   <div class="productsCategoriesTitle">
     <RouterLink class="subRoute" :to="`/category/${products.category}`"
-      >{{ products.category }} /</RouterLink
-    >
+      >{{ products.category }}
+    </RouterLink>
     {{ products.title }}
   </div>
   <div class="productCategorySubtitle">Product Detail</div>

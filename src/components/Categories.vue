@@ -33,6 +33,7 @@ productStore.getAllProductsCategories();
   font-weight: 600;
   color: #4d4d4d;
   text-align: center;
+  flex-direction: column;
 }
 
 .productsCategoriesTitle a {
@@ -59,10 +60,10 @@ productStore.getAllProductsCategories();
 
 @media screen and (max-width: 580px) {
   .productsCategoriesTitle {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .productsCategoriesTitle a {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
 
