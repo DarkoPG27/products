@@ -6,7 +6,9 @@
     {{ products.title }}
   </div>
   <div class="productCategorySubtitle">Product Detail</div>
-
+  <div class="productContainer">
+    <Loader :loading="loading" />
+  </div>
   <div class="productContainer" v-if="!loading">
     <div class="containerOne">
       <div

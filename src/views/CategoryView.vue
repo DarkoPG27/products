@@ -1,6 +1,6 @@
 <template>
   <div class="productsCategoriesTitle">
-    <RouterLink class="subRoute" :to="`/`">Product Categories </RouterLink>
+    <RouterLink class="subRoute" :to="`/`">Product Categories / </RouterLink>
 
     {{ products.products[0].category }}
   </div>
